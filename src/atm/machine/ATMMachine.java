@@ -73,7 +73,7 @@ public class ATMMachine {
         System.out.print("\nHow much money will be withdrawn: ");
         int withdraw = kb.nextInt();
         if (withdraw > balance) {
-            //
+            System.out.print("Insufficient Funds.");
         } else {
             balance -= withdraw;
         }
